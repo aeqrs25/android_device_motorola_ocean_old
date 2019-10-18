@@ -32,7 +32,7 @@ on init
     mount none /system/etc/init/init.mmi.hab.sh /vendor/bin/init.mmi.hab.sh bind
 
     # Begin Changes for Prima WLAN
-    mount none /dev/null /vendor/lib/modules/pronto_wlan.ko bind
+    mount none /system/lib/modules/wlan.ko /vendor/lib/modules/pronto_wlan.ko bind
     mount none /system/bin/hw/hostapd /vendor/bin/hw/hostapd bind
     mount none /system/bin/hw/wpa_supplicant /vendor/bin/hw/wpa_supplicant bind
     
