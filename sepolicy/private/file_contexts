@@ -10,3 +10,8 @@
 # LiveDisplay HAL
 /system/bin/hw/lineage\.livedisplay@2\.0-service-sdm                   u:object_r:shal_livedisplay_default_exec:s0
 /system/bin/hw/lineage\.livedisplay@2\.0-service-sysfs                 u:object_r:shal_livedisplay_default_exec:s0
+
+# Wifi Components
+/system/lib/modules/wlan.ko                                            u:object_r:vendor_file:s0
+/system/bin/hw/wpa_supplicant                                          u:object_r:hal_wifi_supplicant_default_exec:s0
+/system/bin/hw/hostapd                                                 u:object_r:hal_wifi_hostapd_default_exec:s0
