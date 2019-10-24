@@ -24,6 +24,7 @@ TARGET_OTA_ASSERT_DEVICE := river
 
 # Kernel
 TARGET_KERNEL_CONFIG := river_defconfig
+NEED_KERNEL_MODULE_SYSTEM := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 33554432        #    32768 * 1024 mmcblk0p41-42
