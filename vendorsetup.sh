@@ -1,2 +1,2 @@
-add_lunch_combo dot_lake-eng
-add_lunch_combo dot_lake-userdebug 
+add_lunch_combo pixel_ocean-eng
+add_lunch_combo pixel_ocean-userdebug 
