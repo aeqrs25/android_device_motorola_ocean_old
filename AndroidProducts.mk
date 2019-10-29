@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_ocean.mk
+    $(LOCAL_DIR)/cos_ocean.mk

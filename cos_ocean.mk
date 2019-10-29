@@ -19,9 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
-# Inherit some common DotOS stuff
-TARGET_BOOT_ANIMATION_RES := 720
-$(call inherit-product, vendor/dot/config/common.mk)
+# Inherit some common Cosmic-OS stuff
+$(call inherit-product, vendor/cos/config/common.mk)
 
 # Inherit from ocean device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -62,7 +61,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
 PRODUCT_BRAND := motorola
 PRODUCT_DEVICE := ocean
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := dot_ocean
+PRODUCT_NAME := cos_ocean
 PRODUCT_MODEL := moto g(7) power
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
