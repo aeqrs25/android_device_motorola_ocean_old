@@ -1,4 +1,0 @@
-allow platform_app app_data_file:dir search;
-allow platform_app app_data_file:file open;
-allow platform_app default_android_hwservice:hwservice_manager find;
-allow platform_app vendor_default_prop:file { getattr open read };

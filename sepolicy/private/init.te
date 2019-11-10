@@ -9,6 +9,3 @@ allow init vendor_file_type:file mounton;
 
 # Allow init to mount on exec type
 allow init exec_type:file mounton;
-
-allow init persist_file:lnk_file read;
-allow init rootfs:file relabelto;

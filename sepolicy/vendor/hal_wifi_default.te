@@ -1,2 +1,0 @@
-allow hal_wifi_default vendor_tombstone_data_file:dir { add_name remove_name write };
-allow hal_wifi_default vendor_tombstone_data_file:file { getattr unlink };

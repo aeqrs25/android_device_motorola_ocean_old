@@ -1,10 +1,2 @@
 # Allow vendor_init to set vendor_camera_prop
 set_prop(vendor_init, vendor_camera_prop)
-
-allow vendor_init default_prop:file { getattr open read };
-allow vendor_init default_prop:property_service set;
-allow vendor_init dhcp_data_file:dir setattr;
-allow vendor_init exported_secure_prop:property_service set;
-allow vendor_init ffs_prop:property_service set;
-allow vendor_init system_data_file:dir setattr;
-allow vendor_init tombstone_data_file:dir setattr;
