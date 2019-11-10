@@ -1,0 +1,6 @@
+type qti_init_shell, domain;
+domain_auto_trans(init, shell_exec, qti_init_shell)
+
+allow qti_init_shell ctl_start_prop:property_service set;
+allow qti_init_shell default_prop:property_service set;
+allow qti_init_shell self:capability dac_override;
