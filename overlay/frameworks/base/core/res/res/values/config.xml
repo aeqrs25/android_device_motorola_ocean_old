@@ -41,6 +41,9 @@
         config to 7. -->
     <integer name="config_deviceHardwareKeys">19</integer>
 
+    <!-- Enable FP Gestures. -->
+    <bool name="config_fingerprintSupportsGestures">true</bool>
+
     <!-- When true use the linux /dev/input/event subsystem to detect the switch changes
          on the headphone/microphone jack. When false use the older uevent framework. -->
     <bool name="config_useDevInputEventForAudioJack">true</bool>
