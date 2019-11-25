@@ -147,15 +147,9 @@ PRODUCT_PACKAGES += \
     wificond \
     wpa_supplicant
 
-# Light
-PRODUCT_PACKAGES += \
-    android.hardware.light@2.0-service.msm8953
-
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
     $(LOCAL_PATH)/wifi/bin/hostapd:system/bin/hw/hostapd \
-    $(LOCAL_PATH)/wifi/bin/wpa_supplicant:system/bin/hw/wpa_supplicant \
-    $(LOCAL_PATH)/prebuilts/light/android.hardware.light@2.0-service:system/bin/hw/android.hardware.light@2.0-service \
-    $(LOCAL_PATH)/prebuilts/light/android.hardware.light@2.0-service.rc:system/etc/init/android.hardware.light@2.0-service.rc
+    $(LOCAL_PATH)/wifi/bin/wpa_supplicant:system/bin/hw/wpa_supplicant
     

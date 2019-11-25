@@ -36,8 +36,6 @@ on init
     mount none /system/bin/hw/hostapd /vendor/bin/hw/hostapd bind
     mount none /system/bin/hw/wpa_supplicant /vendor/bin/hw/wpa_supplicant bind
     mount none /system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini /vendor/firmware/wlan/prima/WCNSS_qcom_cfg.ini bind
-    mount none /system/bin/hw/android.hardware.light@2.0-service /vendor/bin/hw/android.hardware.light@2.0-service bind
-    mount none /system/etc/init/android.hardware.light@2.0-service.rc /vendor/etc/init/android.hardware.light@2.0-service.rc bind
     
     # Fix for Bluetooh Audio
     mount none /system/etc/audio_effects.xml /vendor/etc/audio_effects.xml bind
