@@ -15,4 +15,3 @@
 /system/lib/modules/wlan.ko                                            u:object_r:vendor_file:s0
 /system/bin/hw/wpa_supplicant                                          u:object_r:hal_wifi_supplicant_default_exec:s0
 /system/bin/hw/hostapd                                                 u:object_r:hal_wifi_hostapd_default_exec:s0
-/system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini                     u:object_r:vendor_firmware_file:s0

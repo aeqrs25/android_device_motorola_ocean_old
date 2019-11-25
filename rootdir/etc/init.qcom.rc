@@ -35,7 +35,6 @@ on init
     mount none /system/lib/modules/wlan.ko /vendor/lib/modules/pronto_wlan.ko bind
     mount none /system/bin/hw/hostapd /vendor/bin/hw/hostapd bind
     mount none /system/bin/hw/wpa_supplicant /vendor/bin/hw/wpa_supplicant bind
-    mount none /system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini /vendor/firmware/wlan/prima/WCNSS_qcom_cfg.ini bind
     
     # Fix for Bluetooh Audio
     mount none /system/etc/audio_effects.xml /vendor/etc/audio_effects.xml bind
