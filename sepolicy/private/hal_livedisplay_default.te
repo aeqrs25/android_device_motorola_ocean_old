@@ -18,12 +18,7 @@ allow shal_livedisplay_default display_data_file:dir rw_dir_perms;
 allow shal_livedisplay_default display_data_file:file create_file_perms;
 
 # Allow LiveDisplay to read display props
-
 get_prop(shal_livedisplay_default, vendor_display_prop)
 
 # Grant LiveDisplay access over the control nodes
 allow shal_livedisplay_default sysfs_graphics:file rw_file_perms;
-
-allow shal_livedisplay_default default_android_hwservice:hwservice_manager add;
-
-allow shal_livedisplay_default hidl_base_hwservice:hwservice_manager add;
