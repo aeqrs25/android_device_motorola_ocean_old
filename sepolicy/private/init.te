@@ -3,9 +3,3 @@ allow init vendor_file:file mounton;
 
 # Allow init to mount vendor configs
 allow init vendor_configs_file:file mounton;
-
-# Allow init to mount on vendor file type
-allow init vendor_file_type:file mounton;
-
-# Allow init to mount on exec type
-allow init exec_type:file mounton;
